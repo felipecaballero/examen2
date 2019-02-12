@@ -1,0 +1,280 @@
+*{ margin: 0;
+padding: 0; }
+
+body {
+	font-family: dancing script;
+	color:  #02010a;
+}
+footer {
+	font-family: dancing script;
+	color:  #02010a;
+}
+
+.enlace{
+text-decoration: none;
+}
+a[href="index.html"]{
+text-decoration: none;
+}
+a[href="paisajes.html"]{
+text-decoration: none;
+}
+a[href="retratos.html"]{
+text-decoration: none;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
+}
+.contenedor {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+}
+
+.contenedor div {
+	box-sizing: border-box;
+	min-width: 150px;
+	padding: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+}
+
+.c1 {
+	color: white;
+  text-align: left;
+	background-color: #5b7989;
+	text-shadow: 1px 1px 2px white, 0 0 2px black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+#menu-principal{
+	float:right;
+	padding: 0px 10px 10px 0px;
+	margin-top: 0px;
+  text-decoration: none;
+
+}
+
+
+.c2 {
+	color: black;
+	background-color: #82c3a6;
+	align-content: center;
+}
+
+.c3 {
+	color: black;
+	background-color: #d5c75f;
+	border: 1px;
+}
+
+.c4 {
+  align-content: center;
+	border-radius: 0px 0px 10px 10px;
+	text-align: center;
+}
+
+.container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.contenedor {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+
+.c1, .c2, .c3, .c4{
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+	.c1 {
+		width: 100%;
+	}
+
+	.c2 {
+		width: 100%;
+	}
+
+	.c3 {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+	.c4 {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		border-radius: 0px 0px 10px 10px;
+		text-align: center;
+	}
+
+
+}
+
+
+@media (min-width: 900px) {
+	.container {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.contenedor {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+border-radius: 0px 0px 10px 10px;
+text-align: center;
+	}
+}
+
+figure {
+	text-align: center;
+	margin: 0px;
+}
+
+figure img {
+	width: 100%;
+}
+
+#imagen1 img{
+	transition-property: border;
+	transition-duration: 0.5s;
+	width: 100%;
+
+}
+
+#imagen1 img:hover{
+	border: solid 4px black;
+}
+
+	#imagen2 img{
+
+		transition-property: all;
+		transition-duration: 0.5s;
+		width: 100%;
+	}
+
+	#imagen2 img:hover{
+		transform: rotate(10deg);
+		-webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+		filter: drop-shadow(2px 2px 2px #82c3a6);
+	}
+
+	#imagen3 img{
+		transition-property: all;
+		transition-duration: 0.5s;
+		width: 100%;
+	}
+
+	#imagen3 img:hover{
+			transform: translateY(-5px) translateX(20px);
+			-webkit-filter:drop-shadow(2px 2px 2px #82c3a6);
+			filter: drop-shadow(2px 2px 2px #82c3a6);
+	}
+
+	#pie {
+		background-color: #C6d5c5;
+		border-radius: 0px 0px 10px 10px;
+		width: 100%;
+		text-align: center;
+}
+	#pie .c4 > div {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		border: solid #C6d5c5;
+		background-color: #C6d5c5;
+		width: 25%;
+		border-radius: 0px 0px 10px 10px;
+
+	}
+
+	#copyright img{
+		padding: 0;
+		margin: 0;
+		width: 25%;
+	}
+
+
+
+	#imagen1p img{
+
+		-webkit-filter:blur(10px);
+		filter: blur(10px);
+	}
+
+	#imagen1r img{
+
+		-webkit-filter:blur(10px);
+		filter: blur(10px);
+	}
+
+	#imagen2p img{
+
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+
+	#imagen2r img{
+
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+	#imagen4p img{
+
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+
+	#imagen4r img{
+
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+	#imagen6p img{
+
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+
+	#imagen6r img{
+
+		-webkit-filter:grayscale(100%);
+		filter: grayscale(100%);
+	}
+
+	#imagen3p img{
+
+		-webkit-filter:sepia(90%);
+		filter: sepia(90%);
+	}
+
+	#imagen3r img{
+
+		-webkit-filter:sepia(90%);
+		filter: sepia(90%);
+	}
